@@ -1,0 +1,33 @@
+Part 1
+
+Excercise 1	
+
+  Begin
+	   INPUT totalmilesdriven
+	   INPUT gallonsoffuelused
+	   mpg = totalmilesdriven \ gallonsoffuelused
+	   OUTPUT mpg
+	End
+
+Excercise 2
+
+	Begin
+	   INPUT totalmonthlyrent
+	   Dailyrent = totalmonthlyrent \ 30
+	   OUTPUT Dailyrent
+	End
+
+Exercise 3
+ 	
+	Begin
+	   INPUT monthlypay
+	   INPUT rent
+	   INPUT utilities
+	   INPUT grocery
+	   Totalbills = rent + utlilities + grocery
+	   Discretionaryspending = monthlypay - Totalbills
+	   OUTPUT monthlypay
+     OUTPUT totalbills
+	   OUTPUT Discretionaryspending
+	End
+	   
