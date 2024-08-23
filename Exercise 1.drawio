@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Page-1" id="EFZ1FO_OO6Jy-V1oG3BF">
+    <mxGraphModel dx="989" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#080808" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p1ggg1Jwrk0IBeudpiSp-1" value="INPUT totalmilesdriven" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;strokeWidth=10;perimeterSpacing=5;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="170" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p1ggg1Jwrk0IBeudpiSp-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#6a00ff;strokeColor=#3700CC;" edge="1" parent="1" source="p1ggg1Jwrk0IBeudpiSp-2" target="p1ggg1Jwrk0IBeudpiSp-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1ggg1Jwrk0IBeudpiSp-2" value="INPUT gallonsoffuelused" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;strokeWidth=10;perimeterSpacing=5;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="310" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p1ggg1Jwrk0IBeudpiSp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#6a00ff;strokeColor=#3700CC;" edge="1" parent="1" source="p1ggg1Jwrk0IBeudpiSp-3" target="p1ggg1Jwrk0IBeudpiSp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1ggg1Jwrk0IBeudpiSp-3" value="&lt;div&gt;mpg = totalmilesdriven / gallonsoffuelused&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;rounded=1;glass=1;shadow=0;strokeWidth=10;perimeterSpacing=5;" vertex="1" parent="1">
+          <mxGeometry x="240" y="420" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p1ggg1Jwrk0IBeudpiSp-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#6a00ff;strokeColor=#3700CC;" edge="1" parent="1" source="p1ggg1Jwrk0IBeudpiSp-4" target="p1ggg1Jwrk0IBeudpiSp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1ggg1Jwrk0IBeudpiSp-4" value="&amp;nbsp;OUTPUT mpg" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;strokeWidth=10;perimeterSpacing=5;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="550" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p1ggg1Jwrk0IBeudpiSp-5" value="BEGIN" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#f7f7f8;strokeWidth=10;perimeterSpacing=5;" vertex="1" parent="1">
+          <mxGeometry x="100" y="50" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p1ggg1Jwrk0IBeudpiSp-6" value="END" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#f7f7f8;strokeWidth=10;perimeterSpacing=5;" vertex="1" parent="1">
+          <mxGeometry x="110" y="700" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p1ggg1Jwrk0IBeudpiSp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.583;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#6a00ff;strokeColor=#3700CC;" edge="1" parent="1" source="p1ggg1Jwrk0IBeudpiSp-5" target="p1ggg1Jwrk0IBeudpiSp-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1ggg1Jwrk0IBeudpiSp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.571;entryY=0.063;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="p1ggg1Jwrk0IBeudpiSp-1" target="p1ggg1Jwrk0IBeudpiSp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
