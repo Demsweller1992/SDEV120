@@ -2,7 +2,7 @@ Part 1
 
 Excercise 1	
 
-  Begin
+        Begin
 	   INPUT totalmilesdriven
 	   INPUT gallonsoffuelused
 	   mpg = totalmilesdriven \ gallonsoffuelused
@@ -27,7 +27,7 @@ Exercise 3
 	   Totalbills = rent + utlilities + grocery
 	   Discretionaryspending = monthlypay - Totalbills
 	   OUTPUT monthlypay
-     OUTPUT totalbills
+           OUTPUT totalbills
 	   OUTPUT Discretionaryspending
 	End
 	   
